@@ -29,7 +29,7 @@
                </font>
             </Label>
             <TextField fx:id="txtCPF" layoutX="108.0" layoutY="30.0" />
-            <Button fx:id="btnBuscarCPFColaborador" layoutX="257.0" layoutY="30.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="28.0" />
+            <Button fx:id="btnBuscarCPFColaborador" layoutX="257.0" layoutY="30.0" mnemonicParsing="false" onAction="#buscarCPF" prefHeight="25.0" prefWidth="28.0" />
          </children>
       </Pane>
       <Pane layoutX="34.0" layoutY="241.0" prefHeight="402.0" prefWidth="744.0" style="-fx-border-radius: 12; -fx-border-width: 1; -fx-border-color: #000000; -fx-border-insets: 2; -fx-background-color: #ffffff;">
@@ -87,6 +87,6 @@
       </Pane>
       <Button fx:id="btnCancelarColaborador" layoutX="780.0" layoutY="139.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="52.0" />
       <Button fx:id="btnDeletarColaborador" layoutX="852.0" layoutY="139.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="52.0" />
-      <Button fx:id="btnSalvarColaborador" layoutX="921.0" layoutY="139.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="52.0" />
+      <Button fx:id="btnSalvarColaborador" layoutX="921.0" layoutY="139.0" mnemonicParsing="false" onAction="#salvarFuncionario" prefHeight="40.0" prefWidth="52.0" />
    </children>
 </AnchorPane>

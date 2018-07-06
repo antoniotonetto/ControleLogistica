@@ -23,4 +23,79 @@ public class Veiculo {
     private long km;
     private Funcionario funcionario;
     private SimpleDoubleProperty mediaKmLitro;
+
+    public int getIdVeiculo() {
+        return idVeiculo;
+    }
+
+    public void setIdVeiculo(int idVeiculo) {
+        this.idVeiculo = idVeiculo;
+    }
+
+    public String getPlaca() {
+        return placa.get();
+    }
+
+    public void setPlaca(SimpleStringProperty placa) {
+        this.placa = placa;
+    }
+
+    public String getModeloVeiculo() {
+        return modeloVeiculo.get();
+    }
+
+    public void setModeloVeiculo(SimpleStringProperty modeloVeiculo) {
+        this.modeloVeiculo = modeloVeiculo;
+    }
+
+    public SimpleDoubleProperty getPesoTara() {
+        return pesoTara;
+    }
+
+    public void setPesoTara(SimpleDoubleProperty pesoTara) {
+        this.pesoTara = pesoTara;
+    }
+
+    public String getPlacaCarreta() {
+        return placaCarreta.get();
+    }
+
+    public void setPlacaCarreta(SimpleStringProperty placaCarreta) {
+        this.placaCarreta = placaCarreta;
+    }
+
+    public String getAnoVeiculo() {
+        return anoVeiculo.get();
+    }
+
+    public void setAnoVeiculo(SimpleStringProperty anoVeiculo) {
+        this.anoVeiculo = anoVeiculo;
+    }
+
+    public long getKm() {
+        return km;
+    }
+
+    public void setKm(long km) {
+        this.km = km;
+    }
+
+    public Funcionario getFuncionario() {
+        return funcionario;
+    }
+
+    public void setFuncionario(Funcionario funcionario) {
+        this.funcionario = funcionario;
+    }
+
+    public SimpleDoubleProperty getMediaKmLitro() {
+        return mediaKmLitro;
+    }
+
+    public void setMediaKmLitro(SimpleDoubleProperty mediaKmLitro) {
+        this.mediaKmLitro = mediaKmLitro;
+    }
+
+   
 }
+
